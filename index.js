@@ -14,12 +14,12 @@ function nowServing(line){
 }
 
 function currentLine(line){
-  var string = 'The line is currently:'
+  var string = 'The line is currently:';
   if (0 < line.length){
    let i = 0;
    while (i < line.length){
-     string + `${i+ 1}.${line[i]}`
-     i++
+     string + `${i+ 1}. ${line[i]}`;
+     i++;
    }
    return string;
   }
