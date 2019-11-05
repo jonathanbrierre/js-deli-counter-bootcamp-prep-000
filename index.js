@@ -21,7 +21,7 @@ function currentLine(line){
      string + `${i+ 1}. ${line[i]}`;
      i++;
    }
-   return string;
+   return(string);
   }
   else {
    return "The line is currently empty.";
