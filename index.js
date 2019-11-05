@@ -22,7 +22,7 @@ function currentLine(line){
      i++;
      
    }
-   console.log(string);
+   return(string);
   }
   else {
    return "The line is currently empty.";
