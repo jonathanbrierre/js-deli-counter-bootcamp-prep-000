@@ -18,7 +18,7 @@ function currentLine(line){
   if (0 < line.length){
    let i = 0;
    while (i < line.length){
-     string = string + ` ${i+ 1}. ${line[i]}`;
+     string = string + `${i+ 1}. ${line[i]}`;
      i++;
      
    }
