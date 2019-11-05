@@ -20,9 +20,8 @@ function currentLine(line){
    while (i < line.length){
      string = string + ` ${i+ 1}. ${line[i]}`;
      if (i < line.length){string = string + ',' }
-     }
      i++;
-     
+   }
    }
    return(string);
   }
