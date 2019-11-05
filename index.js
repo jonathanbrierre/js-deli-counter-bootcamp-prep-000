@@ -19,13 +19,11 @@ function currentLine(line){
    let i = 0;
    while (i < line.length){
      string = string + ` ${i+ 1}. ${line[i]}`;
-     if (i < line.length){string = string + ',' }
+    if (i < line.length){string = string + ',' }
      i++;
    }
-   }
-   return(string);
+    return(string);
   }
-  else {
-   return "The line is currently empty.";
-  }
+  
+  else {return "The line is currently empty.";}
 }
